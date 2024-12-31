@@ -10,10 +10,13 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ServiceDetails from "./pages/ServiceDetails";
+import ProtectedRoute from "./components/ProtectedRoute";
+import NotFound from "./pages/NotFound";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+    errorElement:<NotFound></NotFound>,
     children: [
       {
         path:'/',
@@ -31,7 +34,7 @@ const router = createBrowserRouter([
   },
   {
     path:'service/:id',
-    element:<ServiceDetails></ServiceDetails>,
+    element: <ProtectedRoute> <ServiceDetails></ServiceDetails></ProtectedRoute> ,
   }
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(

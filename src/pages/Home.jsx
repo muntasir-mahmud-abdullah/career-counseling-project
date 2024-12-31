@@ -2,6 +2,8 @@ import React from "react";
 import Slider from "../components/Slider";
 import ServiceCard from "../components/ServiceCard";
 import servicesData from "../data/services.json";
+import Testimonials from "./Testomonials";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
           <ServiceCard key={service.id} service={service} />
         ))}
       </div>
+      <Testimonials></Testimonials>
+      <Faq></Faq>
     </div>
   );
 };
