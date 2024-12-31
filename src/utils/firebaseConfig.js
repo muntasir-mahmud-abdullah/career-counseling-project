@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDzD6F4RW-BSksWcSr2nsaoCtcU6L_KhO8",
-  authDomain: "career-counseling-auth.firebaseapp.com",
-  projectId: "career-counseling-auth",
-  storageBucket: "career-counseling-auth.firebasestorage.app",
-  messagingSenderId: "967215316901",
-  appId: "1:967215316901:web:6baa79b83b7ac3c2e3724c",
+  apiKey:import.meta.env.VITE_apiKey,
+  authDomain:import.meta.env.VITE_authDomain,
+  projectId:import.meta.env.VITE_projectId,
+  storageBucket:import.meta.env.VITE_storageBucket,
+  messagingSenderId:import.meta.env.VITE_messagingSenderId,
+  appId:import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase
