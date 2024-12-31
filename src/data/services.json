@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "name": "Career Counseling",
+      "description": "Professional guidance for your career path.",
+      "image": "https://i.ibb.co.com/6w3s6Z3/chat-7767693-640.jpg",
+      "price": "$100",
+      "category": "Online",
+      "duration": "1 hour",
+      "rating": 4.5,
+      "counselor": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Resume Review",
+      "description": "Improve your resume with expert advice.",
+      "image": "https://i.ibb.co.com/B2LFp9G/internet-8097838-640.jpg",
+      "price": "$50",
+      "category": "Offline",
+      "duration": "30 minutes",
+      "rating": 4.8,
+      "counselor": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "name": "Interview Preparation",
+      "description": "Ace your interviews with professional tips.",
+      "image": "https://i.ibb.co.com/qRXfKCv/chat-7767694-640.jpg",
+      "price": "$75",
+      "category": "Online",
+      "duration": "45 minutes",
+      "rating": 4.7,
+      "counselor": "Emily Johnson"
+    },
+    {
+      "id": 4,
+      "name": "Job Matching",
+      "description": "Find the best job opportunities tailored for you.",
+      "image": "https://i.ibb.co.com/HVKm2CG/mobile-phone-6170575-1280.jpg",
+      "price": "$120",
+      "category": "Online",
+      "duration": "2 hours",
+      "rating": 4.9,
+      "counselor": "Michael Brown"
+    },
+    {
+      "id": 5,
+      "name": "Skill Assessment",
+      "description": "Evaluate your skills and get improvement plans.",
+      "image": "https://i.ibb.co.com/dL8k4WF/cloud-3362004-1280.jpg",
+      "price": "$60",
+      "category": "Offline",
+      "duration": "1 hour",
+      "rating": 4.4,
+      "counselor": "Sophia Davis"
+    },
+    {
+      "id": 6,
+      "name": "Leadership Training",
+      "description": "Build your leadership skills for career growth.",
+      "image": "https://i.ibb.co.com/N7V9Zkj/471152355-3784221885215615-4376564555033214136-n.jpg",
+      "price": "$150",
+      "category": "Online",
+      "duration": "3 hours",
+      "rating": 4.9,
+      "counselor": "Chris Evans"
+    }
+  ]
+  
