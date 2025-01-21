@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../utils/firebaseConfig";
 import { updateProfile } from "firebase/auth";
+import { Helmet } from "react-helmet";
 
 const MyProfile = () => {
   const [user] = useAuthState(auth);
@@ -20,6 +21,11 @@ const MyProfile = () => {
 
   return (
     <div className="p-10">
+      <Helmet>
+        <title>
+          My Profile
+        </title>
+      </Helmet>
       <h1 className="text-2xl mb-5">My Profile</h1>
       <form className="bg-base-100 p-10 shadow-lg rounded" onSubmit={handleUpdate}>
         <div className="form-control mb-4">

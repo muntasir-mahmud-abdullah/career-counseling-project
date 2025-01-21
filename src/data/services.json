@@ -8,7 +8,8 @@
       "category": "Online",
       "duration": "1 hour",
       "rating": 4.5,
-      "counselor": "John Doe"
+      "counselor": "John Doe",
+      "button": "Learn More"
     },
     {
       "id": 2,
@@ -19,7 +20,8 @@
       "category": "Offline",
       "duration": "30 minutes",
       "rating": 4.8,
-      "counselor": "Jane Smith"
+      "counselor": "Jane Smith",
+      "button": "Learn More"
     },
     {
       "id": 3,
@@ -30,7 +32,8 @@
       "category": "Online",
       "duration": "45 minutes",
       "rating": 4.7,
-      "counselor": "Emily Johnson"
+      "counselor": "Emily Johnson",
+      "button": "Learn More"
     },
     {
       "id": 4,
@@ -41,7 +44,8 @@
       "category": "Online",
       "duration": "2 hours",
       "rating": 4.9,
-      "counselor": "Michael Brown"
+      "counselor": "Michael Brown",
+      "button": "Learn More"
     },
     {
       "id": 5,
@@ -52,7 +56,8 @@
       "category": "Offline",
       "duration": "1 hour",
       "rating": 4.4,
-      "counselor": "Sophia Davis"
+      "counselor": "Sophia Davis",
+      "button": "Learn More"
     },
     {
       "id": 6,
@@ -63,7 +68,8 @@
       "category": "Online",
       "duration": "3 hours",
       "rating": 4.9,
-      "counselor": "Chris Evans"
+      "counselor": "Chris Evans",
+      "button": "Learn More"
     }
   ]
   

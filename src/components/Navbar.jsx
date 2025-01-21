@@ -17,10 +17,11 @@ const Navbar = () => {
       <div className="flex-none">
         {user ? (
           <div className="dropdown dropdown-end flex items-center gap-6">
+            <Link to='/myprofile'><button className="btn btn-primary">My Profile</button></Link>
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
                 <img
-                  src={user.photoURL || "https://via.placeholder.com/150"}
+                  src={user.photoURL || "https://i.ibb.co.com/hHrP1HD/soccer-9204076-640.png"}
                   alt="User"
                 />
               </div>
