@@ -1,11 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
-import servicesData from "../data/services.json";
 import { Helmet } from "react-helmet-async";
 
 const ServiceDetails = () => {
   // const servicesData = useLoaderData();
   const { id } = useParams();
+  const [servicesData,setServicesData] = useState([]);
+  useEffect(()=>{
+    fetch('/public/services.json')
+    .then(res=>res.json())
+    .then(data=>setServicesData(data));
+  },[])
   const service = servicesData.find((s) => s.id === parseInt(id));
   
   const [comment, setComment] = useState("");
