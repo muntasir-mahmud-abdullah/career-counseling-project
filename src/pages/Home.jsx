@@ -8,7 +8,7 @@ import { Helmet } from "react-helmet";
 const Home = () => {
   const [servicesData, setServicesData] = useState([]);
   useEffect(() => {
-    fetch("services.json")
+    fetch("/services.json")
       .then((res) => res.json())
       .then((data) => setServicesData(data));
   }, []);
