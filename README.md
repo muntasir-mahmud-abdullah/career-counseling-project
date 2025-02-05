@@ -6,7 +6,7 @@ This **Career Counseling Website** provides personalized career guidance, profes
 
 ## 🖼️ Screenshot
 
-![Website Screenshot](https://i.ibb.co.com/QvvR2nZw/Screenshot-2025-02-05-191916.png)
+![Website Screenshot](https://i.ibb.co/QvvR2nZw/Screenshot-2025-02-05-191916.png)
 
 ## 🛠️ Technologies Used
 
