@@ -82,8 +82,8 @@ Then, open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ## 🔗 Live Project
 
-- **Live Demo:** [Deployed Website](https://your-live-site-link.com)
-- **GitHub Repository:** [View on GitHub](https://github.com/your-username/career-counseling)
+- **Live Demo:** [Deployed Website](https://career-counseling-auth.web.app)
+- **GitHub Repository:** [View on GitHub](https://github.com/muntasir-mahmud-abdullah/career-counseling-project)
 
 ## 📚 Additional Features & Routes
 
